@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Circles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .circle-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 15px;
+        }
+        .circle-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .circle-card h3 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #3498db;
+        }
+        .circle-card p {
+            padding: 0 15px 20px 15px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding Circles</h1>
+        <p>Explore the properties and types of circles</p>
+    </header>
+    <div class="container">
+        <div class="circle-card">
+            <img src="basic-circle.jpg" alt="Basic Circle">
+            <h3>Basic Circle</h3>
+            <p>A circle is a simple shape in geometry consisting of all points in a plane that are at a given distance from a fixed point, the center.</p>
+        </div>
+        <div class="circle-card">
+            <img src="circumference.jpg" alt="Circumference">
+            <h3>Circumference</h3>
+            <p>The circumference of a circle is the distance around it, calculated using the formula C = 2πr, where r is the radius.</p>
+        </div>
+        <div class="circle-card">
+            <img src="area.jpg" alt="Area">
+            <h3>Area</h3>
+            <p>The area of a circle is the space enclosed within its circumference, calculated using the formula A = πr², where r is the radius.</p>
+        </div>
+    </div>
+</body>
+</html>
